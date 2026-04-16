@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan Markup</title>
+
+   
+    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+    <img src="logo.jpeg" alt="Logo Website">
+
+    <ul id="menu-utama">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tutorial</a></li>
+        <li><a href="#">Video</a></li>
+    </ul>
+
+    <form>
+        <input type="text" placeholder="Search..." />
+    </form>
+</div>
+ 
+    <div class="slider">
+        <div><img src="slider (1).jpeg"></div>
+        <div><img src="slider (2).jpeg"></div>
+        <div><img src="slider (3).jpeg"></div>
+    </div>
+
+    <div id="content">
+
+        <div id="daftar-artikel">
+
+            <div class="artikel">
+                <img src="foto (1).jpeg" />
+                <div>
+                    <h1>Member of TOMORROW X TOGETHER</h1>
+                    <b>2015</b>
+                    <b>Followers : 350,000</b>
+                    <p>Mempunyai 5 member, yaitu Cho-Soobin (sebagai Leader dan Vokalis), Choi Yeon-jun (sebagai rapper, dancer, dan vokalis), Choi Beom-gyu (sebagai vokalis, dancer, visual, dan center), Kang Tae-hyun (sebagai Vokalis  utama, sering melakukan ad-lib dan bagian vokal yang berat), serta HueningKai (sebagai Vokalis dan visual).</p>
+                    <a href="#">Watch This</a>
+                </div>
+            </div>
+
+            <div class="artikel">
+                <img src="foto (2).jpeg" />
+                <div>
+                    <h1>7TH YEAR: A Moment of Stillness in the Thorns</h1>
+                    <b>1991</b>
+                    <b>Followers : 8,700,000</b>
+                    <p>TOMORROW X TOGETHER telah mengeluarkan album terbaru pada 13 April 2026 untuk perayaan 7 tahun debut mereka.            </p>
+                    <a href="#">Watch This</a>
+                </div>
+            </div>
+
+             <div class="artikel">
+                <img src="foto (3).jpeg" alt="Gambar Artikel" />
+                <div>
+                    <h1>Mini Album ke-8</h1>
+                    <b>2019</b>
+                    <b>Views : 159,000</b>
+                    <p>Album tersebut berisi 6 lagu, dan lagu utama nya adalah berjudul "Stick With You". Album tersebut meraih penjualan tinggi yaitu 1,5 juta dalam 2 hari.</p>
+                    <a href="#">Watch This</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div id="sidebar">
+            <h2>Who we are?</h2>
+            <p>TOMORROW X TOGETHER adalah boy group asal Korea Selatan yang dibentuk oleh BigHit Music dan debut pada tahun 2019. Grup ini dikenal dengan konsep yang fresh, penuh warna, serta cerita tentang masa muda, mimpi, dan perjalanan menemukan jati diri.
+
+TXT terdiri dari lima member berbakat, yaitu Soobin (leader), Yeonjun, Beomgyu, Taehyun, dan Hueningkai. Masing-masing member memiliki keunikan dan kemampuan di bidang vokal, dance, hingga performance yang membuat mereka menonjol di industri K-pop.</p>
+        
+        <h2>Artikel berdasarkan kategori</h2> 
+             <ul> 
+                <li><a href= >Boygroup</a></li> 
+                <li><a href= >Lagu</a></li> 
+                <li><a href= >Musik</a></li> 
+                <li><a href= >Comback Album</a></li>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Copyright 2026 by Aulia X PPLG 1</p>
+    </div>
+
+</div>
+
+<!--  jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!--  SLICK JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!--  AKTIFKAN SLIDER -->
+<script>
+$(document).ready(function(){
+  $('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    arrows: true
+  });
+});
+</script>
+
+</body>
+</html>
